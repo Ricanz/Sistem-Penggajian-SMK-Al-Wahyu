@@ -1,4 +1,5 @@
 # Sistem-Penggajian-SMK-Al-Wahyu
+> Hey! Ricanz here 😍
 This is an "iseng" project to help SMK AL wahyu for computerized their system on the absence and payroll
 
 ## How to clone the Project
@@ -13,3 +14,4 @@ git status
 git add
 git commit
 ```
+
