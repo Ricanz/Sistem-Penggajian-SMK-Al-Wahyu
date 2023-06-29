@@ -105,6 +105,33 @@
 <!-- Divider -->
 <hr class="sidebar-divider d-none d-md-block">
 
+<!-- Heading -->
+<div class="sidebar-heading">
+    Laporan
+</div>
+
+<!-- Nav Item - Utilities Collapse Menu -->
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRekap"
+        aria-expanded="true" aria-controls="collapseRekap">
+        <i class="fas fa-fw fa-edit"></i>
+        <span>Rekap Data</span>
+    </a>
+    <div id="collapseRekap" class="collapse" aria-labelledby="headingUtilities"
+        data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="report.php?type=guru&flag=gaji">Data Gaji Guru</a>
+            <a class="collapse-item" href="report.php?type=karyawan&flag=gaji">Data Gaji Karyawan</a>
+            <a class="collapse-item" href="report.php?type=guru&flag=absen">Data Absen Guru</a>
+            <a class="collapse-item" href="report.php?type=karyawan&flag=absen">Data Absen Karyawan</a>
+
+        </div>
+    </div>
+</li>
+
+<!-- Divider -->
+<hr class="sidebar-divider">
+
 <!-- Sidebar Toggler (Sidebar) -->
 <div class="text-center d-none d-md-inline">
     <button class="rounded-circle border-0" id="sidebarToggle"></button>
