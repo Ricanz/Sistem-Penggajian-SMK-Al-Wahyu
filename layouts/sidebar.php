@@ -15,6 +15,11 @@
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
 </li>
+<li class="nav-item active">
+    <a class="nav-link" href="about-us.php">
+        <i class="fas fa-fw fa-user"></i>
+        <span>About Us</span></a>
+</li>
 
 <!-- Divider -->
 <hr class="sidebar-divider">
